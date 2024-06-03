@@ -3,13 +3,14 @@
 
 BRATISLAVA, SLOVAKIA · 
 
-MIRO.ADAMY@KLASSIFY.COM
+[MIRO.ADAMY@KLASSIFY.COM](https://miro-adamy.gitlab.io/#about)
+
 
 
 
 ## Skills
 
-Design and Architecture
+### Design and Architecture
 
 -   Distributed Systems
 -   Microservices
@@ -18,7 +19,7 @@ Design and Architecture
 -   SaaS/PaaS/IaaS
 -   Machine Learning
 
-Languages, Operating Systems & Tools
+### Languages, Operating Systems & Tools
 
 -   Python
 -   Java
@@ -30,7 +31,7 @@ Languages, Operating Systems & Tools
 -   C/C++
 -   C#
 
-DevOps & Administration
+### DevOps & Administration
 
 -   GitHub
 -   Bitbucket
@@ -38,7 +39,7 @@ DevOps & Administration
 -   Cloudformation
 -   AWS CDK
 
-Containers & Cloud
+### Containers & Cloud
 
 -   [AWS](https://aws.amazon.com/)
 -   [Docker](https://docker.com/)
@@ -46,7 +47,7 @@ Containers & Cloud
 -   [Linux](https://www.linux.org/)
 -   [Terraform](https://www.terraform.io/)
 
-Domain Experience
+### Domain Experience
 
 -   Retail
 -   eCommerce
