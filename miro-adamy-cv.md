@@ -7,6 +7,7 @@ BRATISLAVA, SLOVAKIA ·
 
 DevOps Engineer with 10+ years of experience building, automating, and managing cloud infrastructure on AWS (AWS Certified Solutions Architect + Developer & AWS Certified Security Specialty). Skilled in IaaC (Terraform), CI/CD, and container orchestration using Kubernetes (Certified Kubernetes Administrator). Proven track record of improving efficiency and scalability for e-commerce and enterprise applications.
 
+[Source of this file (MD)](https://raw.githubusercontent.com/miroadamy/resume/main/miro-adamy-cv.md)
 
 ## Skills
 
