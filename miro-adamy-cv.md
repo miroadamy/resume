@@ -5,7 +5,7 @@ BRATISLAVA, SLOVAKIA ·
 
 [MIRO.ADAMY@KLASSIFY.COM](https://miro-adamy.gitlab.io/#about)
 
-
+DevOps Engineer with 10+ years of experience building, automating, and managing cloud infrastructure on AWS (AWS Certified Solutions Architect + Developer & AWS Certified Security Specialty). Skilled in IaaC (Terraform), CI/CD, and container orchestration using Kubernetes (Certified Kubernetes Administrator). Proven track record of improving efficiency and scalability for e-commerce and enterprise applications.
 
 
 ## Skills
@@ -57,6 +57,16 @@ BRATISLAVA, SLOVAKIA ·
 -   Security
 
 ## [Selected Projects](https://miro-adamy.gitlab.io/projects/creations/)
+
+### [2024-now - DevOps/Cloud Consultant - Freelance, remote or hybrid](https://miro-adamy.gitlab.io/projects/creations/2024-now/)
+
+Senior DevOps / Cloud Engineer and Solution architect, specializing in AWS, IaaC, CI/CD, Kubernetes, distributed systems and containerization available for short term (2 months+) or longer term contracts. Working in remote mode from EU timezone (GMT+1) for clients in EU, UK, CH, Canada/USA.
+
+For details on skills and certifications please see https://miro-adamy.gitlab.io/.
+
+Available for hybrid projects within CZ, SK, AT, IT, CH, DE.
+
+Can work in English, German, Spanish, Slovak (native)/Czech. 
 
 ### [2020-2024 - DevOps/Cloud Engineer - Pivotree, fully remote](https://miro-adamy.gitlab.io/projects/creations/2020-2021/)
 
