@@ -1,16 +1,3 @@
-Shortform Logo
-Move floating Icon
-Shortform Logo
-
-Intro Image
-Get an instant summary of this page
-Along with context, alternative points of view, and links to learn more
-
-
-Get summary
-You have early access to a new product. Give us feedback on how to make it better: extension@shortform.com
-
-
 # MIRO ADAMY
 
 BRATISLAVA, SLOVAKIA · 
@@ -19,7 +6,7 @@ BRATISLAVA, SLOVAKIA ·
 
 DevOps Engineer with 10+ years of experience building, automating, and managing cloud infrastructure on AWS (AWS Certified Solutions Architect + Developer & AWS Certified Security Specialty). Skilled in IaaC (Terraform), CI/CD, and container orchestration using Kubernetes (Certified Kubernetes Administrator). Proven track record of improving efficiency and scalability for e-commerce and enterprise applications.
 
-[Source of this file (MD)](https://raw.githubusercontent.com/miroadamy/resume/main/miro-adamy-cv.md)
+[Resume in Markdown](https://raw.githubusercontent.com/miroadamy/resume/main/miro-adamy-cv.md)
 
 ## Skills
 
