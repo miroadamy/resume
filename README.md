@@ -39,7 +39,7 @@ DevOps Engineer with 10+ years of experience building, automating, and managing 
 -   Cloudformation
 -   AWS CDK
 
-### Containers & Cloud
+### Containers and Cloud
 
 -   [AWS](https://aws.amazon.com/)
 -   [Docker](https://docker.com/)
@@ -47,7 +47,7 @@ DevOps Engineer with 10+ years of experience building, automating, and managing 
 -   [Linux](https://www.linux.org/)
 -   [Terraform](https://www.terraform.io/)
 
-### Domain Experience
+### Business Domain Experience
 
 -   Retail
 -   eCommerce
