@@ -19,7 +19,7 @@ DevOps Engineer with 10+ years of experience building, automating, and managing 
 -   SaaS/PaaS/IaaS
 -   Machine Learning
 
-### Languages, Operating Systems & Tools
+### Languages, Operating Systems and Tools
 
 -   Python
 -   Java
