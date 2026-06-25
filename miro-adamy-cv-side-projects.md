@@ -12,7 +12,7 @@ A proven track record of improving efficiency and scalability for e-commerce and
 
 Certified: Claude Certified Architect (Anthropic), AWS Certified Solutions Architect + Developer & Security Specialty, Certified Kubernetes Administrator.
 
-[Source of this file (MD)](https://raw.githubusercontent.com/miroadamy/resume/main/miro-adamy-cv.md)
+[Source of this file (MD)](https://raw.githubusercontent.com/miroadamy/resume/main/miro-adamy-cv-side-projects.md)
 
 ## Skills
 
@@ -276,6 +276,97 @@ Moved to the Thinkwrap Commerce branch in Spain in 2016 to build the support bra
 - custom ERP / accounting system implementation and enhancement
 - Implementation of VAT system for Austria
 - C / C++, Novell, Assembler x86, Perl, OS/2, Windows
+
+## [Side Projects](https://miro-adamy.gitlab.io/projects/contributions/)
+
+A few things I build and maintain for myself — engineering applied to my own data and knowledge.
+
+### Audiobook management (ABM)
+
+A Python tool that downloads and organises audiobooks from DRM-free stores (Audioteka, AudioLibrix) into a local, file-based library — browser-automated and heavily tested.
+
+- Downloads and organises audiobooks from multiple stores behind a single source-generic adapter
+- Browser automation with Playwright for sign-in and retrieval
+- Modern Python toolchain (Python 3.13, uv) backed by a large pytest suite (800+ tests)
+- Metadata reconciliation into a local, file-based library
+- *Python, Playwright, uv, pytest, Web automation*
+
+### Large-scale data migration & integrity verification
+
+Python tooling to migrate ~350 GB / 565k+ files across NAS storage with end-to-end SHA-1 integrity verification and par2 parity for cold archives.
+
+- ~350 GB / 500k+ files migrated across NAS storage into a clean, normalized structure
+- End-to-end SHA-1 hashing and verification on every move; par2 parity files for cold-archive resilience
+- Filename normalization (YYYY-MM-DD_subject.ext) and de-duplication
+- Custom Python orchestration scripts driving the whole pipeline, with progress tracked in a TSV manifest
+- *Python, Bash, SHA-1, par2, rclone, NAS*
+
+### Personal knowledge-management platform
+
+A 10,000+ note Obsidian vault run as a system — PARA structure, Dataview, custom Python tooling, and Claude Code agents / skills (MCP) for automation.
+
+- 10,000+ interlinked notes in an Obsidian vault, organised with the PARA method
+- Dataview dashboards, templating, and vault-hygiene automation
+- Custom Python tooling and Git-based sync across desktop and mobile
+- Claude Code agents, skills and MCP servers wired into the vault for research and upkeep
+- *Obsidian, Markdown, Python, Git, Claude Code, MCP, Dataview*
+
+### Calibre ebook library automation & backup
+
+Unattended integrity checks, metadata cleanup and multi-tier backups (NAS, Google Drive, git) for three Calibre ebook libraries.
+
+- Three Calibre libraries kept consistent - author normalization, de-duplication, metadata cleanup
+- Unattended backup tiers to NAS, Google Drive and git (rclone + cron), with a quarterly cold-archive retention policy
+- Integrity checks and SQLite metadata inspection, plus OPF rebuild for disaster recovery
+- par2 parity protection on the cold archives
+- *Python, Bash, SQLite, rclone, par2, cron*
+
+### Learning Rust
+
+An ongoing self-study track into Rust — language fundamentals through async, atomics and small CLI / backend tools — widening from scripting into systems programming.
+
+- Working through the language with rustlings exercises and the core Rust books
+- Focus areas: ownership, async Rust, atomics & locks, and building small CLI / backend tools
+- Motivation: faster, safer tooling and a foundation for infrastructure and AI-agent work in Rust
+- *Rust, rustlings*
+
+### Notion to Obsidian bridge
+
+Python tooling to publish Obsidian notes to Notion and extract a full Notion workspace back into Obsidian, with LLM-assisted triage of ~10k pages.
+
+- Publishing pipeline (Obsidian to Notion) with recursive embed resolution and incremental SHA-256 change tracking
+- Workspace extraction (Notion to Obsidian) with rate-limiting and exponential backoff (tenacity)
+- LLM-assisted triage: ~10,000 extracted pages classified with Claude (Haiku in bulk, Sonnet for the hard cases)
+- Modern Python packaging (hatchling) with a real test suite
+- *Python, Notion API, Claude (Haiku/Sonnet), tenacity, pytest*
+
+### Raindrop / Obsidian plugin (fork)
+
+Forked and revived an Obsidian community plugin (TypeScript) to sync Raindrop.io bookmarks into the vault — updated for Node 22 and extended with new query parameters.
+
+- Forked an Obsidian Raindrop plugin and brought it back to life on Node 22
+- Added new query parameters (nested folders, result limits) for live sync with my Raindrop account
+- TypeScript with a rollup bundler, working against the Obsidian and Raindrop APIs
+- *TypeScript, Obsidian API, Raindrop API, rollup, Node.js*
+
+### Family tree in Obsidian (GEDCOM)
+
+Imported a 300+ person GEDCOM genealogy export into a private, local-first Obsidian tree, with Python backfill scripts and printable charts.
+
+- Parsed a 300+ person GEDCOM 5.5.1 export (UTF-8, Slovak diacritics, marriage-name tags)
+- Python backfill scripts (uv, pytest) with collision resolution and wikilink rewriting across 1,400+ files
+- Dataview queries for validation; printable charts via an Obsidian plugin and a Graphviz to PDF path
+- *Python, GEDCOM, Obsidian, Dataview, Graphviz*
+
+### [This résumé site (Hugo)](https://miro-adamy.gitlab.io)
+
+The site you're reading — a Hugo static site on a customised hugo-resume theme, data-driven from JSON/Markdown, built and deployed automatically via GitLab CI/CD to GitLab Pages.
+
+- Hugo static-site generator on a customised hugo-resume theme, with template overrides in Go templates
+- Content as data - skills, education and work history live in JSON / Markdown rather than hand-written HTML
+- Continuous deployment: every push to master is built and published to GitLab Pages by GitLab CI/CD
+- Recently refreshed - theme upgrade, Devicon icons and content updates (some with help from Claude Code)
+- *Hugo, Go templates, TOML, GitLab CI/CD, GitLab Pages*
 
 ## Human languages
 
